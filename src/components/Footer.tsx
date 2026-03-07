@@ -14,12 +14,12 @@ const legalLinks = [
 
 export default function Footer() {
   return (
-    <footer className="border-t border-white/5 bg-[#07070b]">
+    <footer className="border-t border-gray-100 bg-gray-50">
       <div className="max-w-6xl mx-auto px-6 md:px-8 py-12 md:py-16">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10 md:gap-8">
           <div className="space-y-4">
             <Link href="/">
-              <span className="text-lg font-semibold text-white">
+              <span className="text-lg font-semibold text-gray-900">
                 Vaunted Labs
               </span>
             </Link>
@@ -30,7 +30,7 @@ export default function Footer() {
           </div>
 
           <div className="space-y-4">
-            <h4 className="text-sm font-semibold text-white uppercase tracking-wider">
+            <h4 className="text-sm font-semibold text-gray-900 uppercase tracking-wider">
               Navigation
             </h4>
             <ul className="space-y-2">
@@ -38,7 +38,7 @@ export default function Footer() {
                 <li key={link.label}>
                   <Link
                     href={link.href}
-                    className="text-sm text-gray-500 hover:text-gray-300 transition-colors"
+                    className="text-sm text-gray-500 hover:text-gray-700 transition-colors"
                   >
                     {link.label}
                   </Link>
@@ -48,7 +48,7 @@ export default function Footer() {
           </div>
 
           <div className="space-y-4">
-            <h4 className="text-sm font-semibold text-white uppercase tracking-wider">
+            <h4 className="text-sm font-semibold text-gray-900 uppercase tracking-wider">
               Legal
             </h4>
             <ul className="space-y-2">
@@ -56,7 +56,7 @@ export default function Footer() {
                 <li key={link.label}>
                   <Link
                     href={link.href}
-                    className="text-sm text-gray-500 hover:text-gray-300 transition-colors"
+                    className="text-sm text-gray-500 hover:text-gray-700 transition-colors"
                   >
                     {link.label}
                   </Link>
@@ -66,11 +66,11 @@ export default function Footer() {
             <div className="pt-2 space-y-1">
               <a
                 href="mailto:admin@vauntedlabsllc.com"
-                className="block text-sm text-gray-500 hover:text-primary-400 transition-colors"
+                className="block text-sm text-gray-500 hover:text-primary-600 transition-colors"
               >
                 admin@vauntedlabsllc.com
               </a>
-              <p className="text-xs text-gray-600 leading-relaxed">
+              <p className="text-xs text-gray-400 leading-relaxed">
                 254 Chapman Rd, Ste 208 #26689
                 <br />
                 Newark, Delaware 19702, US
@@ -79,8 +79,8 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="mt-12 pt-8 border-t border-white/5 flex flex-col md:flex-row items-center justify-between gap-4">
-          <p className="text-xs text-gray-600">
+        <div className="mt-12 pt-8 border-t border-gray-200 flex flex-col md:flex-row items-center justify-between gap-4">
+          <p className="text-xs text-gray-400">
             &copy; 2026 Vaunted Labs LLC. All rights reserved.
           </p>
           <div className="flex items-center gap-6">
@@ -88,7 +88,7 @@ export default function Footer() {
               <Link
                 key={link.label}
                 href={link.href}
-                className="text-xs text-gray-600 hover:text-gray-400 transition-colors"
+                className="text-xs text-gray-400 hover:text-gray-600 transition-colors"
               >
                 {link.label}
               </Link>

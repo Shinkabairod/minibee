@@ -10,16 +10,16 @@ export default function Terms() {
   return (
     <div className="min-h-screen pt-28 pb-20">
       <div className="max-w-3xl mx-auto px-6 md:px-8">
-        <h1 className="text-3xl md:text-4xl font-bold text-white mb-2">
+        <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-2">
           Terms of Service
         </h1>
         <p className="text-sm text-gray-500 mb-10">
           Effective Date: January 28, 2026
         </p>
 
-        <div className="space-y-10 text-gray-400 leading-relaxed">
+        <div className="space-y-10 text-gray-600 leading-relaxed">
           <section>
-            <h2 className="text-xl font-semibold text-white mb-3">
+            <h2 className="text-xl font-semibold text-gray-900 mb-3">
               1. Acceptance of Terms
             </h2>
             <p>
@@ -32,10 +32,10 @@ export default function Terms() {
             </p>
           </section>
 
-          <hr className="border-white/5" />
+          <hr className="border-gray-200" />
 
           <section>
-            <h2 className="text-xl font-semibold text-white mb-3">
+            <h2 className="text-xl font-semibold text-gray-900 mb-3">
               2. Scope of Services
             </h2>
             <p>
@@ -46,10 +46,10 @@ export default function Terms() {
             </p>
           </section>
 
-          <hr className="border-white/5" />
+          <hr className="border-gray-200" />
 
           <section>
-            <h2 className="text-xl font-semibold text-white mb-3">
+            <h2 className="text-xl font-semibold text-gray-900 mb-3">
               3. License to Use
             </h2>
             <p>
@@ -61,10 +61,10 @@ export default function Terms() {
             </p>
           </section>
 
-          <hr className="border-white/5" />
+          <hr className="border-gray-200" />
 
           <section>
-            <h2 className="text-xl font-semibold text-white mb-3">
+            <h2 className="text-xl font-semibold text-gray-900 mb-3">
               4. Intellectual Property
             </h2>
             <p>
@@ -77,10 +77,10 @@ export default function Terms() {
             </p>
           </section>
 
-          <hr className="border-white/5" />
+          <hr className="border-gray-200" />
 
           <section>
-            <h2 className="text-xl font-semibold text-white mb-3">
+            <h2 className="text-xl font-semibold text-gray-900 mb-3">
               5. Payments &amp; Transactions
             </h2>
             <p>
@@ -92,10 +92,10 @@ export default function Terms() {
             </p>
           </section>
 
-          <hr className="border-white/5" />
+          <hr className="border-gray-200" />
 
           <section>
-            <h2 className="text-xl font-semibold text-white mb-3">
+            <h2 className="text-xl font-semibold text-gray-900 mb-3">
               6. Prohibited Conduct
             </h2>
             <p className="mb-3">
@@ -120,10 +120,10 @@ export default function Terms() {
             </ul>
           </section>
 
-          <hr className="border-white/5" />
+          <hr className="border-gray-200" />
 
           <section>
-            <h2 className="text-xl font-semibold text-white mb-3">
+            <h2 className="text-xl font-semibold text-gray-900 mb-3">
               7. Disclaimer of Warranties
             </h2>
             <p>
@@ -135,10 +135,10 @@ export default function Terms() {
             </p>
           </section>
 
-          <hr className="border-white/5" />
+          <hr className="border-gray-200" />
 
           <section>
-            <h2 className="text-xl font-semibold text-white mb-3">
+            <h2 className="text-xl font-semibold text-gray-900 mb-3">
               8. Limitation of Liability
             </h2>
             <p>
@@ -150,10 +150,10 @@ export default function Terms() {
             </p>
           </section>
 
-          <hr className="border-white/5" />
+          <hr className="border-gray-200" />
 
           <section>
-            <h2 className="text-xl font-semibold text-white mb-3">
+            <h2 className="text-xl font-semibold text-gray-900 mb-3">
               9. Termination
             </h2>
             <p>
@@ -164,10 +164,10 @@ export default function Terms() {
             </p>
           </section>
 
-          <hr className="border-white/5" />
+          <hr className="border-gray-200" />
 
           <section>
-            <h2 className="text-xl font-semibold text-white mb-3">
+            <h2 className="text-xl font-semibold text-gray-900 mb-3">
               10. Governing Law &amp; Dispute Resolution
             </h2>
             <p>
@@ -180,10 +180,10 @@ export default function Terms() {
             </p>
           </section>
 
-          <hr className="border-white/5" />
+          <hr className="border-gray-200" />
 
           <section>
-            <h2 className="text-xl font-semibold text-white mb-3">
+            <h2 className="text-xl font-semibold text-gray-900 mb-3">
               11. Modifications
             </h2>
             <p>
@@ -194,23 +194,23 @@ export default function Terms() {
             </p>
           </section>
 
-          <hr className="border-white/5" />
+          <hr className="border-gray-200" />
 
           <section>
-            <h2 className="text-xl font-semibold text-white mb-3">
+            <h2 className="text-xl font-semibold text-gray-900 mb-3">
               12. Contact
             </h2>
             <p className="mb-3">
               For questions about these Terms of Service, please reach out to
               us:
             </p>
-            <div className="bg-white/[0.02] border border-white/5 rounded-xl p-5 space-y-1">
-              <p className="text-white font-medium">Vaunted Labs LLC</p>
+            <div className="bg-gray-50 border border-gray-200 rounded-xl p-5 space-y-1">
+              <p className="text-gray-900 font-medium">Vaunted Labs LLC</p>
               <p>
                 Email:{" "}
                 <a
                   href="mailto:admin@vauntedlabsllc.com"
-                  className="text-primary-400 hover:text-primary-300 transition-colors"
+                  className="text-primary-600 hover:text-primary-500 transition-colors"
                 >
                   admin@vauntedlabsllc.com
                 </a>

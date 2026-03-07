@@ -12,7 +12,7 @@ export default function Contact() {
           viewport={{ once: true, margin: "-100px" }}
           transition={{ duration: 0.6 }}
         >
-          <h2 className="text-3xl md:text-4xl font-bold text-white mb-2">
+          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-2">
             Let&apos;s Build Together
           </h2>
           <div className="w-12 h-1 bg-gradient-to-r from-primary-500 to-accent-500 rounded-full mb-6 mx-auto" />
@@ -23,7 +23,7 @@ export default function Contact() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, margin: "-100px" }}
           transition={{ duration: 0.6, delay: 0.1 }}
-          className="text-gray-400 text-lg leading-relaxed max-w-2xl mx-auto mb-10"
+          className="text-gray-500 text-lg leading-relaxed max-w-2xl mx-auto mb-10"
         >
           Have a compelling project or an idea worth pursuing? We&apos;d like to
           hear about it. Reach out to explore potential collaborations or learn
@@ -39,10 +39,10 @@ export default function Contact() {
         >
           <a
             href="mailto:admin@vauntedlabsllc.com"
-            className="group flex items-center gap-3 px-6 py-3 rounded-full border border-white/10 bg-white/[0.02] hover:bg-white/[0.05] hover:border-primary-500/30 transition-all duration-300"
+            className="group flex items-center gap-3 px-6 py-3 rounded-full border border-gray-200 bg-white hover:bg-gray-50 hover:border-primary-200 hover:shadow-md transition-all duration-300"
           >
             <svg
-              className="w-5 h-5 text-primary-400"
+              className="w-5 h-5 text-primary-500"
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
@@ -54,7 +54,7 @@ export default function Contact() {
                 d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75"
               />
             </svg>
-            <span className="text-gray-300 group-hover:text-white transition-colors">
+            <span className="text-gray-600 group-hover:text-gray-900 transition-colors">
               admin@vauntedlabsllc.com
             </span>
           </a>

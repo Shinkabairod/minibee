@@ -8,9 +8,9 @@ export default function Hero() {
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Background effects */}
       <div className="absolute inset-0">
-        <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-primary-600/10 rounded-full blur-3xl" />
-        <div className="absolute bottom-1/4 right-1/4 w-96 h-96 bg-accent-500/8 rounded-full blur-3xl" />
-        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,transparent_20%,#0a0a0f_70%)]" />
+        <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-primary-100/50 rounded-full blur-3xl" />
+        <div className="absolute bottom-1/4 right-1/4 w-96 h-96 bg-accent-100/40 rounded-full blur-3xl" />
+        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,transparent_20%,#ffffff_70%)]" />
       </div>
 
       <div className="relative z-10 max-w-4xl mx-auto px-6 md:px-8 text-center">
@@ -19,9 +19,9 @@ export default function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, ease: "easeOut" }}
         >
-          <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-white/10 bg-white/5 mb-8">
-            <div className="w-2 h-2 rounded-full bg-accent-400 animate-pulse" />
-            <span className="text-xs text-gray-400">
+          <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-gray-200 bg-gray-50 mb-8">
+            <div className="w-2 h-2 rounded-full bg-accent-500 animate-pulse" />
+            <span className="text-xs text-gray-500">
               Custom Programming Services
             </span>
           </div>
@@ -31,7 +31,7 @@ export default function Hero() {
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.15, ease: "easeOut" }}
-          className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight text-white leading-[1.1]"
+          className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight text-gray-900 leading-[1.1]"
         >
           We craft intelligent software{" "}
           <span className="gradient-text">for the modern era.</span>
@@ -41,7 +41,7 @@ export default function Hero() {
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.3, ease: "easeOut" }}
-          className="mt-6 text-lg md:text-xl text-gray-400 max-w-2xl mx-auto leading-relaxed"
+          className="mt-6 text-lg md:text-xl text-gray-500 max-w-2xl mx-auto leading-relaxed"
         >
           Vaunted Labs is a specialized software studio designing, developing,
           and deploying custom digital solutions — from our own proprietary
@@ -62,7 +62,7 @@ export default function Hero() {
           </Link>
           <Link
             href="/#services"
-            className="px-8 py-3 text-sm font-medium rounded-full border border-white/10 text-gray-300 hover:bg-white/5 hover:text-white transition-all duration-300"
+            className="px-8 py-3 text-sm font-medium rounded-full border border-gray-200 text-gray-600 hover:bg-gray-50 hover:text-gray-900 transition-all duration-300"
           >
             Our Services
           </Link>

@@ -10,16 +10,16 @@ export default function PrivacyPolicy() {
   return (
     <div className="min-h-screen pt-28 pb-20">
       <div className="max-w-3xl mx-auto px-6 md:px-8">
-        <h1 className="text-3xl md:text-4xl font-bold text-white mb-2">
+        <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-2">
           Privacy Policy
         </h1>
         <p className="text-sm text-gray-500 mb-10">
           Effective Date: January 28, 2026
         </p>
 
-        <div className="space-y-10 text-gray-400 leading-relaxed">
+        <div className="space-y-10 text-gray-600 leading-relaxed">
           <section>
-            <h2 className="text-xl font-semibold text-white mb-3">
+            <h2 className="text-xl font-semibold text-gray-900 mb-3">
               1. Overview
             </h2>
             <p>
@@ -33,10 +33,10 @@ export default function PrivacyPolicy() {
             </p>
           </section>
 
-          <hr className="border-white/5" />
+          <hr className="border-gray-200" />
 
           <section>
-            <h2 className="text-xl font-semibold text-white mb-3">
+            <h2 className="text-xl font-semibold text-gray-900 mb-3">
               2. Information We Collect
             </h2>
             <p className="mb-3">
@@ -44,24 +44,24 @@ export default function PrivacyPolicy() {
             </p>
             <ul className="list-disc list-inside space-y-2 ml-2">
               <li>
-                <strong className="text-gray-300">Device Information:</strong>{" "}
+                <strong className="text-gray-700">Device Information:</strong>{" "}
                 Device type, operating system, browser type, and unique device
                 identifiers.
               </li>
               <li>
-                <strong className="text-gray-300">Usage Data:</strong>{" "}
+                <strong className="text-gray-700">Usage Data:</strong>{" "}
                 Interaction patterns, pages visited, features used, session
                 duration, and performance metrics.
               </li>
               <li>
-                <strong className="text-gray-300">
+                <strong className="text-gray-700">
                   General Location Data:
                 </strong>{" "}
                 Approximate location derived from IP address (country and city
                 level only).
               </li>
               <li>
-                <strong className="text-gray-300">
+                <strong className="text-gray-700">
                   Communication Data:
                 </strong>{" "}
                 Information you voluntarily provide when contacting us via email
@@ -75,10 +75,10 @@ export default function PrivacyPolicy() {
             </p>
           </section>
 
-          <hr className="border-white/5" />
+          <hr className="border-gray-200" />
 
           <section>
-            <h2 className="text-xl font-semibold text-white mb-3">
+            <h2 className="text-xl font-semibold text-gray-900 mb-3">
               3. How We Use Your Data
             </h2>
             <p className="mb-3">
@@ -105,10 +105,10 @@ export default function PrivacyPolicy() {
             </ul>
           </section>
 
-          <hr className="border-white/5" />
+          <hr className="border-gray-200" />
 
           <section>
-            <h2 className="text-xl font-semibold text-white mb-3">
+            <h2 className="text-xl font-semibold text-gray-900 mb-3">
               4. Analytics &amp; Third-Party Services
             </h2>
             <p className="mb-3">
@@ -130,10 +130,10 @@ export default function PrivacyPolicy() {
             </p>
           </section>
 
-          <hr className="border-white/5" />
+          <hr className="border-gray-200" />
 
           <section>
-            <h2 className="text-xl font-semibold text-white mb-3">
+            <h2 className="text-xl font-semibold text-gray-900 mb-3">
               5. Data Storage &amp; Security
             </h2>
             <p>
@@ -146,10 +146,10 @@ export default function PrivacyPolicy() {
             </p>
           </section>
 
-          <hr className="border-white/5" />
+          <hr className="border-gray-200" />
 
           <section>
-            <h2 className="text-xl font-semibold text-white mb-3">
+            <h2 className="text-xl font-semibold text-gray-900 mb-3">
               6. Data Retention
             </h2>
             <p>
@@ -160,10 +160,10 @@ export default function PrivacyPolicy() {
             </p>
           </section>
 
-          <hr className="border-white/5" />
+          <hr className="border-gray-200" />
 
           <section>
-            <h2 className="text-xl font-semibold text-white mb-3">
+            <h2 className="text-xl font-semibold text-gray-900 mb-3">
               7. Your Rights
             </h2>
             <p className="mb-3">
@@ -189,7 +189,7 @@ export default function PrivacyPolicy() {
               To exercise any of these rights, please contact us at{" "}
               <a
                 href="mailto:admin@vauntedlabsllc.com"
-                className="text-primary-400 hover:text-primary-300 transition-colors"
+                className="text-primary-600 hover:text-primary-500 transition-colors"
               >
                 admin@vauntedlabsllc.com
               </a>
@@ -197,10 +197,10 @@ export default function PrivacyPolicy() {
             </p>
           </section>
 
-          <hr className="border-white/5" />
+          <hr className="border-gray-200" />
 
           <section>
-            <h2 className="text-xl font-semibold text-white mb-3">
+            <h2 className="text-xl font-semibold text-gray-900 mb-3">
               8. Children&apos;s Privacy
             </h2>
             <p>
@@ -212,10 +212,10 @@ export default function PrivacyPolicy() {
             </p>
           </section>
 
-          <hr className="border-white/5" />
+          <hr className="border-gray-200" />
 
           <section>
-            <h2 className="text-xl font-semibold text-white mb-3">
+            <h2 className="text-xl font-semibold text-gray-900 mb-3">
               9. International Data Transfers
             </h2>
             <p>
@@ -227,10 +227,10 @@ export default function PrivacyPolicy() {
             </p>
           </section>
 
-          <hr className="border-white/5" />
+          <hr className="border-gray-200" />
 
           <section>
-            <h2 className="text-xl font-semibold text-white mb-3">
+            <h2 className="text-xl font-semibold text-gray-900 mb-3">
               10. Changes to This Policy
             </h2>
             <p>
@@ -242,23 +242,23 @@ export default function PrivacyPolicy() {
             </p>
           </section>
 
-          <hr className="border-white/5" />
+          <hr className="border-gray-200" />
 
           <section>
-            <h2 className="text-xl font-semibold text-white mb-3">
+            <h2 className="text-xl font-semibold text-gray-900 mb-3">
               11. Contact Us
             </h2>
             <p className="mb-3">
               If you have questions or concerns regarding this Privacy Policy,
               please contact us:
             </p>
-            <div className="bg-white/[0.02] border border-white/5 rounded-xl p-5 space-y-1">
-              <p className="text-white font-medium">Vaunted Labs LLC</p>
+            <div className="bg-gray-50 border border-gray-200 rounded-xl p-5 space-y-1">
+              <p className="text-gray-900 font-medium">Vaunted Labs LLC</p>
               <p>
                 Email:{" "}
                 <a
                   href="mailto:admin@vauntedlabsllc.com"
-                  className="text-primary-400 hover:text-primary-300 transition-colors"
+                  className="text-primary-600 hover:text-primary-500 transition-colors"
                 >
                   admin@vauntedlabsllc.com
                 </a>

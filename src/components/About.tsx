@@ -12,7 +12,7 @@ export default function About() {
           viewport={{ once: true, margin: "-100px" }}
           transition={{ duration: 0.6 }}
         >
-          <h2 className="text-3xl md:text-4xl font-bold text-white mb-2">
+          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-2">
             About
           </h2>
           <div className="w-12 h-1 bg-gradient-to-r from-primary-500 to-accent-500 rounded-full mb-8" />
@@ -24,7 +24,7 @@ export default function About() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, margin: "-100px" }}
             transition={{ duration: 0.6, delay: 0.1 }}
-            className="text-gray-400 leading-relaxed text-lg"
+            className="text-gray-600 leading-relaxed text-lg"
           >
             Vaunted Labs is a Delaware-based software studio dedicated to
             creating high-quality digital products. We combine deep technical
@@ -38,7 +38,7 @@ export default function About() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, margin: "-100px" }}
             transition={{ duration: 0.6, delay: 0.2 }}
-            className="text-gray-400 leading-relaxed text-lg"
+            className="text-gray-600 leading-relaxed text-lg"
           >
             While we primarily focus on developing and managing our own portfolio
             of products, we selectively partner with organizations whose vision

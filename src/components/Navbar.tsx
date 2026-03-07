@@ -28,14 +28,14 @@ export default function Navbar() {
       transition={{ duration: 0.6, ease: "easeOut" }}
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
         isScrolled
-          ? "bg-[#0a0a0f]/80 backdrop-blur-xl border-b border-white/5"
+          ? "bg-white/80 backdrop-blur-xl border-b border-gray-200/60 shadow-sm"
           : "bg-transparent"
       }`}
     >
       <div className="max-w-6xl mx-auto px-6 md:px-8">
         <div className="flex items-center justify-between h-16 md:h-20">
           <Link href="/" className="group">
-            <span className="text-lg font-semibold text-white group-hover:text-primary-300 transition-colors">
+            <span className="text-lg font-semibold text-gray-900 group-hover:text-primary-600 transition-colors">
               Vaunted Labs
             </span>
           </Link>
@@ -45,7 +45,7 @@ export default function Navbar() {
               <Link
                 key={link.label}
                 href={link.href}
-                className="text-sm text-gray-400 hover:text-white transition-colors duration-200"
+                className="text-sm text-gray-500 hover:text-gray-900 transition-colors duration-200"
               >
                 {link.label}
               </Link>
@@ -60,7 +60,7 @@ export default function Navbar() {
 
           <button
             onClick={() => setIsMobileOpen(!isMobileOpen)}
-            className="md:hidden text-gray-400 hover:text-white transition-colors"
+            className="md:hidden text-gray-500 hover:text-gray-900 transition-colors"
             aria-label="Toggle menu"
           >
             <svg
@@ -95,7 +95,7 @@ export default function Navbar() {
             initial={{ opacity: 0, height: 0 }}
             animate={{ opacity: 1, height: "auto" }}
             exit={{ opacity: 0, height: 0 }}
-            className="md:hidden bg-[#0a0a0f]/95 backdrop-blur-xl border-b border-white/5"
+            className="md:hidden bg-white/95 backdrop-blur-xl border-b border-gray-200/60"
           >
             <div className="px-6 py-4 space-y-3">
               {navLinks.map((link) => (
@@ -103,7 +103,7 @@ export default function Navbar() {
                   key={link.label}
                   href={link.href}
                   onClick={() => setIsMobileOpen(false)}
-                  className="block text-sm text-gray-400 hover:text-white transition-colors py-2"
+                  className="block text-sm text-gray-500 hover:text-gray-900 transition-colors py-2"
                 >
                   {link.label}
                 </Link>
