@@ -34,10 +34,7 @@ export default function Navbar() {
     >
       <div className="max-w-6xl mx-auto px-6 md:px-8">
         <div className="flex items-center justify-between h-16 md:h-20">
-          <Link href="/" className="flex items-center gap-2 group">
-            <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-primary-500 to-accent-500 flex items-center justify-center">
-              <span className="text-white font-bold text-sm">V</span>
-            </div>
+          <Link href="/" className="group">
             <span className="text-lg font-semibold text-white group-hover:text-primary-300 transition-colors">
               Vaunted Labs
             </span>
