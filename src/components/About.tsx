@@ -26,12 +26,11 @@ export default function About() {
             transition={{ duration: 0.6, delay: 0.1 }}
             className="text-gray-600 leading-relaxed text-lg"
           >
-            Minibee is a Delaware-based software studio dedicated to
-            creating high-quality digital products. We combine deep technical
-            expertise with careful design thinking to build solutions that stand
-            apart. Every project we take on reflects our commitment to clean
-            architecture, lasting reliability, and genuine value for the people
-            who use our software.
+            Minibee is a small, focused studio that builds software people
+            actually enjoy using. We handle everything from concept to App Store
+            — designing clean interfaces, writing solid code, and shipping
+            products that just work. No bloat, no shortcuts, no compromise on
+            the details that matter.
           </motion.p>
           <motion.p
             initial={{ opacity: 0, y: 20 }}
@@ -40,11 +39,10 @@ export default function About() {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="text-gray-600 leading-relaxed text-lg"
           >
-            While we primarily focus on developing and managing our own portfolio
-            of products, we selectively partner with organizations whose vision
-            aligns with ours. These collaborations are grounded in mutual
-            respect, technical rigor, and a shared drive to deliver software
-            that performs flawlessly from day one.
+            We mostly build our own products, but we also team up with a
+            handful of partners who share our standards. Every collaboration
+            starts with a clear goal and ends with something we&apos;re proud
+            to put our name on.
           </motion.p>
         </div>
       </div>

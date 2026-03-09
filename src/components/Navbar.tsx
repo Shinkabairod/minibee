@@ -52,9 +52,10 @@ export default function Navbar() {
             ))}
             <Link
               href="/#contact"
-              className="px-5 py-2 text-sm font-medium rounded-full bg-gradient-to-r from-primary-600 to-primary-500 text-white hover:from-primary-500 hover:to-primary-400 transition-all duration-200 shadow-lg shadow-primary-500/20"
+              className="group relative px-5 py-2 text-sm font-semibold rounded-full bg-gray-900 text-white overflow-hidden transition-all duration-300 hover:shadow-lg hover:shadow-gray-900/20"
             >
-              Get in Touch
+              <span className="relative z-10">Get in Touch</span>
+              <div className="absolute inset-0 bg-gradient-to-r from-primary-600 to-primary-500 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
             </Link>
           </div>
 
@@ -111,7 +112,7 @@ export default function Navbar() {
               <Link
                 href="/#contact"
                 onClick={() => setIsMobileOpen(false)}
-                className="block text-center px-5 py-2.5 text-sm font-medium rounded-full bg-gradient-to-r from-primary-600 to-primary-500 text-white mt-2"
+                className="block text-center px-5 py-2.5 text-sm font-semibold rounded-full bg-gray-900 text-white mt-2"
               >
                 Get in Touch
               </Link>
