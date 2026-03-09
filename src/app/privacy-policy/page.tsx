@@ -29,8 +29,9 @@ export default function PrivacyPolicy() {
               minibee.pro, our mobile applications distributed through the Apple
               App Store and Google Play Store, and any other software
               applications or digital services we provide (collectively, the
-              &quot;Services&quot;). By accessing or using our Services, you
-              acknowledge and agree to the practices outlined in this policy.
+              &quot;Services&quot;). By downloading, accessing, or using our
+              Services, you acknowledge and agree to the practices outlined in
+              this policy.
             </p>
           </section>
 
@@ -41,7 +42,9 @@ export default function PrivacyPolicy() {
               2. Information We Collect
             </h2>
             <p className="mb-3">
-              We may collect the following categories of information:
+              We are committed to collecting only the minimum data necessary to
+              provide and improve our Services. We may collect the following
+              categories of information:
             </p>
             <ul className="list-disc list-inside space-y-2 ml-2">
               <li>
@@ -59,7 +62,7 @@ export default function PrivacyPolicy() {
                   General Location Data:
                 </strong>{" "}
                 Approximate location derived from IP address (country and city
-                level only).
+                level only). We do not collect precise GPS location.
               </li>
               <li>
                 <strong className="text-gray-700">
@@ -81,7 +84,7 @@ export default function PrivacyPolicy() {
               Services. We do not collect or store names, email addresses, or
               passwords unless you voluntarily provide them. Payment metadata is
               handled solely by the Apple App Store or Google Play Store —
-              MINIBEE LLC does not receive or store payment card information.
+              MINIBEE LLC does not receive or store any payment card information.
             </p>
           </section>
 
@@ -92,7 +95,7 @@ export default function PrivacyPolicy() {
               3. How We Use Your Data
             </h2>
             <p className="mb-3">
-              Information we collect is used for the following purposes:
+              Information we collect is used strictly for the following purposes:
             </p>
             <ul className="list-disc list-inside space-y-2 ml-2">
               <li>
@@ -108,8 +111,8 @@ export default function PrivacyPolicy() {
                 software.
               </li>
               <li>
-                Delivering notifications and communicating with you regarding
-                service updates or responding to inquiries.
+                Delivering push notifications and communicating with you
+                regarding service updates or responding to inquiries.
               </li>
               <li>Meeting legal and regulatory compliance requirements.</li>
             </ul>
@@ -124,8 +127,7 @@ export default function PrivacyPolicy() {
             <p className="mb-3">
               We may employ third-party analytics and infrastructure providers
               to help us understand how our Services are used. These providers
-              operate under their own privacy policies and may include services
-              such as:
+              operate under their own privacy policies and may include:
             </p>
             <ul className="list-disc list-inside space-y-2 ml-2">
               <li>Behavior analytics platforms for usage analysis.</li>
@@ -144,7 +146,8 @@ export default function PrivacyPolicy() {
             </ul>
             <p className="mt-3">
               We do not sell or rent your personal information to any third
-              party.
+              party. We only share data with third-party providers to the extent
+              necessary to operate and improve our Services.
             </p>
           </section>
 
@@ -173,9 +176,11 @@ export default function PrivacyPolicy() {
             </h2>
             <p>
               We retain collected data only for as long as it is necessary to
-              fulfill the purposes described in this policy. When data is no
-              longer required, it is deleted or anonymized in accordance with
-              our internal data management practices.
+              fulfill the purposes described in this policy. Analytics data is
+              retained for a reasonable period to identify trends and improve our
+              Services. When data is no longer required, it is deleted or
+              anonymized in accordance with our internal data management
+              practices.
             </p>
           </section>
 
@@ -217,7 +222,8 @@ export default function PrivacyPolicy() {
               >
                 contact@minibee.pro
               </a>
-              .
+              . We will respond to your request within a reasonable timeframe in
+              accordance with applicable law.
             </p>
           </section>
 
@@ -232,7 +238,15 @@ export default function PrivacyPolicy() {
               We do not knowingly collect personal information from children. If
               we become aware that we have inadvertently gathered data from a
               child under 13, we will take prompt steps to delete that
-              information.
+              information. If you believe a child has provided us with personal
+              data, please contact us at{" "}
+              <a
+                href="mailto:contact@minibee.pro"
+                className="text-primary-600 hover:text-primary-500 transition-colors"
+              >
+                contact@minibee.pro
+              </a>
+              .
             </p>
           </section>
 
@@ -273,8 +287,8 @@ export default function PrivacyPolicy() {
               11. Contact Us
             </h2>
             <p className="mb-3">
-              If you have questions or concerns regarding this Privacy Policy,
-              please contact us:
+              If you have questions or concerns regarding this Privacy Policy or
+              our data practices, please contact us:
             </p>
             <div className="bg-gray-50 border border-gray-200 rounded-xl p-5 space-y-1">
               <p className="text-gray-900 font-medium">MINIBEE LLC</p>
