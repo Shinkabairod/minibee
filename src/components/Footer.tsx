@@ -20,7 +20,7 @@ export default function Footer() {
           <div className="space-y-4">
             <Link href="/">
               <span className="text-lg font-semibold text-gray-900">
-                Vaunted Labs
+                Minibee
               </span>
             </Link>
             <p className="text-sm text-gray-500 leading-relaxed max-w-xs">
@@ -65,13 +65,13 @@ export default function Footer() {
             </ul>
             <div className="pt-2 space-y-1">
               <a
-                href="mailto:admin@vauntedlabsllc.com"
+                href="mailto:contact@minibee.pro"
                 className="block text-sm text-gray-500 hover:text-primary-600 transition-colors"
               >
-                admin@vauntedlabsllc.com
+                contact@minibee.pro
               </a>
               <p className="text-xs text-gray-400 leading-relaxed">
-                254 Chapman Rd, Ste 208 #26689
+                254 Chapman Road, Ste 208 #23664
                 <br />
                 Newark, Delaware 19702, US
               </p>
@@ -81,7 +81,7 @@ export default function Footer() {
 
         <div className="mt-12 pt-8 border-t border-gray-200 flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-xs text-gray-400">
-            &copy; 2026 Vaunted Labs LLC. All rights reserved.
+            &copy; 2026 MINIBEE LLC. All rights reserved.
           </p>
           <div className="flex items-center gap-6">
             {legalLinks.map((link) => (

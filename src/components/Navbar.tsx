@@ -36,7 +36,7 @@ export default function Navbar() {
         <div className="flex items-center justify-between h-16 md:h-20">
           <Link href="/" className="group">
             <span className="text-lg font-semibold text-gray-900 group-hover:text-primary-600 transition-colors">
-              Vaunted Labs
+              Minibee
             </span>
           </Link>
 

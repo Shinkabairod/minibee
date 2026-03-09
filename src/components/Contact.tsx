@@ -38,7 +38,7 @@ export default function Contact() {
           className="inline-flex flex-col items-center gap-4"
         >
           <a
-            href="mailto:admin@vauntedlabsllc.com"
+            href="mailto:contact@minibee.pro"
             className="group flex items-center gap-3 px-6 py-3 rounded-full border border-gray-200 bg-white hover:bg-gray-50 hover:border-primary-200 hover:shadow-md transition-all duration-300"
           >
             <svg
@@ -55,7 +55,7 @@ export default function Contact() {
               />
             </svg>
             <span className="text-gray-600 group-hover:text-gray-900 transition-colors">
-              admin@vauntedlabsllc.com
+              contact@minibee.pro
             </span>
           </a>
         </motion.div>

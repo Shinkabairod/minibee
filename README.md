@@ -1,6 +1,6 @@
-# Vaunted Labs LLC — Corporate Website
+# MINIBEE LLC — Corporate Website
 
-The official website for **Vaunted Labs LLC**, a Delaware-based software studio specializing in custom computer programming services.
+The official website for **MINIBEE LLC**, a Delaware-based software studio specializing in custom computer programming services.
 
 ## Tech Stack
 
@@ -20,8 +20,8 @@ The official website for **Vaunted Labs LLC**, a Delaware-based software studio 
 ### Installation
 
 ```bash
-git clone https://github.com/Shinkabairod/vauntedlab.git
-cd vauntedlab
+git clone https://github.com/Shinkabairod/minibee.git
+cd minibee
 npm install
 ```
 
@@ -80,12 +80,13 @@ cp .env.example .env.local
 
 ## Company Information
 
-- **Company:** Vaunted Labs LLC
-- **Website:** vauntedlabsllc.com
-- **Email:** admin@vauntedlabsllc.com
-- **Address:** 254 Chapman Rd, Ste 208 #26689, Newark, Delaware 19702, US
+- **Company:** MINIBEE LLC
+- **Website:** minibee.pro
+- **Email:** contact@minibee.pro
+- **Address:** 254 Chapman Road, Ste 208 #23664, Newark, Delaware 19702, US
+- **DUNS:** 14-493-4757
 - **NAICS:** 541511 — Custom Computer Programming Services
 
 ## License
 
-All rights reserved. © 2026 Vaunted Labs LLC.
+All rights reserved. © 2026 MINIBEE LLC.

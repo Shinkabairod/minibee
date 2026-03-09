@@ -26,7 +26,7 @@ export default function About() {
             transition={{ duration: 0.6, delay: 0.1 }}
             className="text-gray-600 leading-relaxed text-lg"
           >
-            Vaunted Labs is a Delaware-based software studio dedicated to
+            Minibee is a Delaware-based software studio dedicated to
             creating high-quality digital products. We combine deep technical
             expertise with careful design thinking to build solutions that stand
             apart. Every project we take on reflects our commitment to clean

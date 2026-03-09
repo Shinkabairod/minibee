@@ -43,7 +43,7 @@ export default function Hero() {
           transition={{ duration: 0.8, delay: 0.3, ease: "easeOut" }}
           className="mt-6 text-lg md:text-xl text-gray-500 max-w-2xl mx-auto leading-relaxed"
         >
-          Vaunted Labs is a specialized software studio designing, developing,
+          Minibee is a specialized software studio designing, developing,
           and deploying custom digital solutions — from our own proprietary
           products to tailored systems built alongside strategic partners.
         </motion.p>

@@ -16,13 +16,13 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://vauntedlabsllc.com"),
+  metadataBase: new URL("https://minibee.pro"),
   title: {
-    default: "Vaunted Labs — Custom Software Solutions",
-    template: "%s | Vaunted Labs",
+    default: "Minibee — Custom Software Solutions",
+    template: "%s | Minibee",
   },
   description:
-    "Vaunted Labs LLC is a Delaware-based software studio specializing in custom computer programming services. We design, develop, and deploy intelligent digital solutions.",
+    "MINIBEE LLC is a Delaware-based software studio specializing in custom computer programming services. We design, develop, and deploy intelligent digital solutions.",
   keywords: [
     "custom software development",
     "programming services",
@@ -30,22 +30,22 @@ export const metadata: Metadata = {
     "digital solutions",
     "web development",
     "app development",
-    "Vaunted Labs",
+    "Minibee",
   ],
-  authors: [{ name: "Vaunted Labs LLC" }],
-  creator: "Vaunted Labs LLC",
+  authors: [{ name: "MINIBEE LLC" }],
+  creator: "MINIBEE LLC",
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://vauntedlabsllc.com",
-    siteName: "Vaunted Labs",
-    title: "Vaunted Labs — Custom Software Solutions",
+    url: "https://minibee.pro",
+    siteName: "Minibee",
+    title: "Minibee — Custom Software Solutions",
     description:
       "Specialized software studio designing, developing, and deploying custom digital solutions.",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Vaunted Labs — Custom Software Solutions",
+    title: "Minibee — Custom Software Solutions",
     description:
       "Specialized software studio designing, developing, and deploying custom digital solutions.",
   },
@@ -69,12 +69,12 @@ export default function RootLayout({
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "Organization",
-              name: "Vaunted Labs LLC",
-              url: "https://vauntedlabsllc.com",
-              email: "admin@vauntedlabsllc.com",
+              name: "MINIBEE LLC",
+              url: "https://minibee.pro",
+              email: "contact@minibee.pro",
               address: {
                 "@type": "PostalAddress",
-                streetAddress: "254 Chapman Rd, Ste 208 #26689",
+                streetAddress: "254 Chapman Road, Ste 208 #23664",
                 addressLocality: "Newark",
                 addressRegion: "DE",
                 postalCode: "19702",
@@ -84,6 +84,7 @@ export default function RootLayout({
                 "Custom computer programming services. A Delaware-based software studio specializing in bespoke digital solutions.",
               foundingDate: "2026-01-28",
               naics: "541511",
+              duns: "14-493-4757",
             }),
           }}
         />
