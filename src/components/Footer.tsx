@@ -10,6 +10,7 @@ const footerNavLinks = [
 const legalLinks = [
   { href: "/privacy-policy", label: "Privacy Policy" },
   { href: "/terms", label: "Terms of Service" },
+  { href: "/support", label: "Support" },
 ];
 
 export default function Footer() {

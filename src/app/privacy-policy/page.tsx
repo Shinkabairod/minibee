@@ -86,6 +86,18 @@ export default function PrivacyPolicy() {
               handled solely by the Apple App Store or Google Play Store —
               MINIBEE LLC does not receive or store any payment card information.
             </p>
+
+            <h3 className="text-lg font-semibold text-gray-900 mt-8 mb-3">
+              2.1 Health &amp; Fitness Data (Special Category — if applicable)
+            </h3>
+            <p>
+              Certain applications may collect health and fitness data including
+              body metrics (weight, height, age), fitness objectives, activity
+              levels, dietary restrictions, and calculated nutritional targets
+              (calories, macronutrients). This data is classified as sensitive
+              and is never sold, never used for advertising, and processed solely
+              to deliver core application functionality.
+            </p>
           </section>
 
           <hr className="border-gray-200" />
@@ -124,30 +136,175 @@ export default function PrivacyPolicy() {
             <h2 className="text-xl font-semibold text-gray-900 mb-3">
               4. Analytics &amp; Third-Party Services
             </h2>
-            <p className="mb-3">
-              We may employ third-party analytics and infrastructure providers
-              to help us understand how our Services are used. These providers
-              operate under their own privacy policies and may include:
+            <p className="mb-4">
+              We employ the following third-party service providers to operate
+              and improve our Services. Each provider operates under their own
+              privacy policy and data processing agreements:
             </p>
-            <ul className="list-disc list-inside space-y-2 ml-2">
-              <li>Behavior analytics platforms for usage analysis.</li>
-              <li>
-                Crash reporting and performance monitoring tools for quality
-                assurance.
-              </li>
-              <li>
-                Subscription and in-app purchase management services.
-              </li>
-              <li>
-                Cloud hosting and deployment services for infrastructure
-                management.
-              </li>
-              <li>Web analytics platforms for traffic analysis.</li>
-            </ul>
-            <p className="mt-3">
+
+            <div className="space-y-5">
+              <div className="bg-gray-50 border border-gray-200 rounded-xl p-4">
+                <p className="text-gray-900 font-medium">
+                  Supabase Inc. — Database &amp; Authentication
+                </p>
+                <p className="text-sm mt-1">
+                  Data: User identifiers, account data, app content
+                </p>
+                <a
+                  href="https://supabase.com/privacy"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-sm text-primary-600 hover:text-primary-500 transition-colors"
+                >
+                  supabase.com/privacy
+                </a>
+              </div>
+
+              <div className="bg-gray-50 border border-gray-200 rounded-xl p-4">
+                <p className="text-gray-900 font-medium">
+                  RevenueCat Inc. — Subscription &amp; IAP Management
+                </p>
+                <p className="text-sm mt-1">
+                  Data: User ID, subscription status, purchase history, device
+                  info
+                </p>
+                <a
+                  href="https://www.revenuecat.com/privacy"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-sm text-primary-600 hover:text-primary-500 transition-colors"
+                >
+                  revenuecat.com/privacy
+                </a>
+              </div>
+
+              <div className="bg-gray-50 border border-gray-200 rounded-xl p-4">
+                <p className="text-gray-900 font-medium">
+                  PostHog Inc. — Product Analytics
+                </p>
+                <p className="text-sm mt-1">
+                  Data: Usage events, session data, feature interactions, device
+                  ID
+                </p>
+                <a
+                  href="https://posthog.com/privacy"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-sm text-primary-600 hover:text-primary-500 transition-colors"
+                >
+                  posthog.com/privacy
+                </a>
+              </div>
+
+              <div className="bg-gray-50 border border-gray-200 rounded-xl p-4">
+                <p className="text-gray-900 font-medium">
+                  Tenjin Inc. — Mobile Attribution
+                </p>
+                <p className="text-sm mt-1">
+                  Data: Device ID, IDFA/GAID (with ATT consent on iOS), install
+                  source
+                </p>
+                <p className="text-sm text-gray-500 mt-1">
+                  Requires App Tracking Transparency consent on iOS 14.5+
+                </p>
+                <a
+                  href="https://www.tenjin.com/privacy"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-sm text-primary-600 hover:text-primary-500 transition-colors"
+                >
+                  tenjin.com/privacy
+                </a>
+              </div>
+
+              <div className="bg-gray-50 border border-gray-200 rounded-xl p-4">
+                <p className="text-gray-900 font-medium">
+                  Superwall Inc. — Paywall Optimization
+                </p>
+                <p className="text-sm mt-1">
+                  Data: Device ID, subscription status, paywall interactions
+                </p>
+                <a
+                  href="https://superwall.com/privacy"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-sm text-primary-600 hover:text-primary-500 transition-colors"
+                >
+                  superwall.com/privacy
+                </a>
+              </div>
+
+              <div className="bg-gray-50 border border-gray-200 rounded-xl p-4">
+                <p className="text-gray-900 font-medium">
+                  Functional Software Inc. (Sentry) — Crash Reporting
+                </p>
+                <p className="text-sm mt-1">
+                  Data: Crash logs, stack traces, device state, app version
+                </p>
+                <a
+                  href="https://sentry.io/privacy"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-sm text-primary-600 hover:text-primary-500 transition-colors"
+                >
+                  sentry.io/privacy
+                </a>
+              </div>
+
+              <div className="bg-gray-50 border border-gray-200 rounded-xl p-4">
+                <p className="text-gray-900 font-medium">
+                  OneSignal Inc. — Push Notifications
+                </p>
+                <p className="text-sm mt-1">
+                  Data: Push tokens, device info, notification interactions
+                </p>
+                <a
+                  href="https://onesignal.com/privacy_policy"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-sm text-primary-600 hover:text-primary-500 transition-colors"
+                >
+                  onesignal.com/privacy_policy
+                </a>
+              </div>
+
+              <div className="bg-gray-50 border border-gray-200 rounded-xl p-4">
+                <p className="text-gray-900 font-medium">
+                  OpenAI LLC — AI Content Generation (if applicable)
+                </p>
+                <p className="text-sm mt-1">
+                  Data: Anonymized parameters only, no personal identifiers
+                </p>
+                <a
+                  href="https://openai.com/privacy"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-sm text-primary-600 hover:text-primary-500 transition-colors"
+                >
+                  openai.com/privacy
+                </a>
+              </div>
+            </div>
+
+            <p className="mt-4">
               We do not sell or rent your personal information to any third
-              party. We only share data with third-party providers to the extent
-              necessary to operate and improve our Services.
+              party.
+            </p>
+
+            <h3 className="text-lg font-semibold text-gray-900 mt-8 mb-3">
+              4.1 App Tracking Transparency (ATT) — iOS
+            </h3>
+            <p>
+              Certain applications use Tenjin for mobile attribution. On iOS
+              14.5+, we request explicit user consent via Apple&apos;s native ATT
+              prompt before any IDFA collection occurs. If you grant permission,
+              your IDFA is used solely for install attribution — never for
+              cross-app advertising. If you deny permission, only aggregated
+              anonymous data is collected. You can change this at any time via:{" "}
+              <strong className="text-gray-700">
+                Settings &gt; Privacy &amp; Security &gt; Tracking
+              </strong>
+              .
             </p>
           </section>
 
@@ -174,14 +331,59 @@ export default function PrivacyPolicy() {
             <h2 className="text-xl font-semibold text-gray-900 mb-3">
               6. Data Retention
             </h2>
-            <p>
+            <p className="mb-4">
               We retain collected data only for as long as it is necessary to
-              fulfill the purposes described in this policy. Analytics data is
-              retained for a reasonable period to identify trends and improve our
-              Services. When data is no longer required, it is deleted or
-              anonymized in accordance with our internal data management
-              practices.
+              fulfill the purposes described in this policy. Specific retention
+              periods are as follows:
             </p>
+            <div className="overflow-x-auto">
+              <table className="w-full text-sm border border-gray-200 rounded-xl overflow-hidden">
+                <thead>
+                  <tr className="bg-gray-50">
+                    <th className="text-left px-4 py-3 font-semibold text-gray-900 border-b border-gray-200">
+                      Data Category
+                    </th>
+                    <th className="text-left px-4 py-3 font-semibold text-gray-900 border-b border-gray-200">
+                      Retention Period
+                    </th>
+                  </tr>
+                </thead>
+                <tbody className="divide-y divide-gray-100">
+                  <tr>
+                    <td className="px-4 py-3">Analytics data</td>
+                    <td className="px-4 py-3">
+                      24 months, then deleted/anonymized
+                    </td>
+                  </tr>
+                  <tr>
+                    <td className="px-4 py-3">Attribution data (Tenjin)</td>
+                    <td className="px-4 py-3">24 months maximum</td>
+                  </tr>
+                  <tr>
+                    <td className="px-4 py-3">Crash data (Sentry)</td>
+                    <td className="px-4 py-3">90 days</td>
+                  </tr>
+                  <tr>
+                    <td className="px-4 py-3">Push tokens (OneSignal)</td>
+                    <td className="px-4 py-3">
+                      Until opt-out or app uninstall
+                    </td>
+                  </tr>
+                  <tr>
+                    <td className="px-4 py-3">Support communications</td>
+                    <td className="px-4 py-3">
+                      12 months after resolution
+                    </td>
+                  </tr>
+                  <tr>
+                    <td className="px-4 py-3">Account data (if collected)</td>
+                    <td className="px-4 py-3">
+                      Active period + 30 days after deletion
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
           </section>
 
           <hr className="border-gray-200" />
@@ -222,8 +424,13 @@ export default function PrivacyPolicy() {
               >
                 contact@minibee.pro
               </a>
-              . We will respond to your request within a reasonable timeframe in
+              . We will respond to your request within 30 days maximum in
               accordance with applicable law.
+            </p>
+            <p className="mt-3">
+              For EU/EEA users, you may also lodge a complaint with your local
+              data protection authority (e.g., CNIL in France, ICO in the UK, or
+              your national supervisory authority).
             </p>
           </section>
 
@@ -256,12 +463,30 @@ export default function PrivacyPolicy() {
             <h2 className="text-xl font-semibold text-gray-900 mb-3">
               9. International Data Transfers
             </h2>
-            <p>
-              Your information may be processed on servers located in the United
-              States or other jurisdictions. By using our Services, you consent
-              to the transfer and processing of your data in these locations,
-              which may have data protection laws that differ from those of your
-              home jurisdiction.
+            <p className="mb-3">
+              All third-party service providers listed in Section 4 are based in
+              the United States. For users located in the EU/EEA, data transfers
+              to the US are governed by:
+            </p>
+            <ul className="list-disc list-inside space-y-2 ml-2">
+              <li>
+                The EU-U.S. Data Privacy Framework (DPF) for certified providers
+              </li>
+              <li>
+                Standard Contractual Clauses (SCCs) adopted by the European
+                Commission for other providers
+              </li>
+            </ul>
+            <p className="mt-3">
+              You may request details on applicable transfer safeguards by
+              emailing{" "}
+              <a
+                href="mailto:contact@minibee.pro"
+                className="text-primary-600 hover:text-primary-500 transition-colors"
+              >
+                contact@minibee.pro
+              </a>
+              .
             </p>
           </section>
 

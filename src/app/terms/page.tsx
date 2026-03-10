@@ -96,6 +96,48 @@ export default function Terms() {
               purchases made through the Apple App Store, Apple&apos;s terms and
               refund policies apply.
             </p>
+
+            <h3 className="text-lg font-semibold text-gray-900 mt-8 mb-3">
+              5.1 Subscriptions &amp; Auto-Renewal
+            </h3>
+            <p className="mb-3">
+              Some of our applications offer auto-renewing subscriptions. By
+              purchasing a subscription, you agree that:
+            </p>
+            <ul className="list-disc list-inside space-y-2 ml-2">
+              <li>
+                Payment will be charged to your Apple ID or Google account at
+                confirmation of purchase.
+              </li>
+              <li>
+                Subscriptions automatically renew unless cancelled at least 24
+                hours before the end of the current billing period.
+              </li>
+              <li>
+                Your account will be charged for renewal within 24 hours prior
+                to the end of the current period at the same rate.
+              </li>
+              <li>
+                You can manage and cancel subscriptions on iOS via:{" "}
+                <strong className="text-gray-700">
+                  Settings &gt; Apple ID &gt; Subscriptions
+                </strong>
+                . On Android via:{" "}
+                <strong className="text-gray-700">
+                  Google Play &gt; Subscriptions
+                </strong>
+                .
+              </li>
+              <li>
+                Some applications offer a permanent free tier with limited
+                features. No free trial period is offered unless explicitly
+                stated within the specific application at time of purchase.
+              </li>
+              <li>
+                Cancelling a subscription does not entitle you to a refund for
+                the current billing period.
+              </li>
+            </ul>
           </section>
 
           <hr className="border-gray-200" />
@@ -205,6 +247,54 @@ export default function Terms() {
               arbitration conducted in Delaware. You agree to waive any right to
               participate in class-action lawsuits or class-wide arbitration.
             </p>
+
+            <h3 className="text-lg font-semibold text-gray-900 mt-8 mb-3">
+              11.1 Apple App Store Additional Terms
+            </h3>
+            <p className="mb-3">
+              For applications downloaded from the Apple App Store, the
+              following terms apply:
+            </p>
+            <ul className="list-disc list-inside space-y-2 ml-2">
+              <li>
+                These Terms of Service are between you and MINIBEE LLC only, and
+                not with Apple Inc. (&quot;Apple&quot;). MINIBEE LLC, not Apple,
+                is solely responsible for our applications and their content.
+              </li>
+              <li>
+                The license granted to you is a non-transferable license to use
+                the application on any Apple-branded product you own or control,
+                as permitted by the Apple Media Services Terms and Conditions.
+              </li>
+              <li>
+                MINIBEE LLC is solely responsible for providing maintenance and
+                support services for our applications. Apple has no obligation
+                to furnish any maintenance or support services.
+              </li>
+              <li>
+                In the event of any application failure to conform to any
+                applicable warranty, you may notify Apple and Apple will refund
+                the purchase price (if any). To the maximum extent permitted by
+                law, Apple has no other warranty obligation.
+              </li>
+              <li>
+                MINIBEE LLC, not Apple, is responsible for addressing claims
+                relating to our applications, including product liability claims,
+                regulatory compliance claims, and claims arising under consumer
+                protection legislation.
+              </li>
+              <li>
+                In the event of any third-party intellectual property
+                infringement claim, MINIBEE LLC will be solely responsible for
+                the investigation, defense, settlement, and discharge of such
+                claim.
+              </li>
+              <li>
+                Apple and its subsidiaries are third-party beneficiaries of
+                these Terms of Service and, upon your acceptance, will have the
+                right to enforce these terms against you.
+              </li>
+            </ul>
           </section>
 
           <hr className="border-gray-200" />
